@@ -1,0 +1,20 @@
+
+ 
+03-28-15 18:06:00 | GET detected
+03-28-15 18:06:00 | Proxy could not resolve requested url - http://route.arcgis.com/arcgis/rest/services/World/Route/NAServer/Route_World.  Possible solution would be to update 'mustMatch', 'matchAll' or 'url' property in the configuration file.
+ 
+03-28-15 18:06:53 | GET detected
+03-28-15 18:06:53 | ips table created!
+03-28-15 18:06:53 | clicks table created!
+03-28-15 18:06:53 | Ok to proxy
+03-28-15 18:06:53 | Proxy complete
+ 
+03-28-15 18:09:24 | GET detected
+03-28-15 18:09:25 | Authorization failed : dojo.io.script.jsonp_dojoIoScript1._jsonpCallback({"error":{"code":499,"message":"Token Required","details":[]}});
+03-28-15 18:09:25 | Retry attempt 1 of 3
+03-28-15 18:09:25 | Resource using OAuth
+03-28-15 18:09:26 | Exchanging portal token for server-specific token for http://route.arcgis.com
+03-28-15 18:09:26 | Adding token to session
+03-28-15 18:09:26 | Using session token
+03-28-15 18:09:27 | Ok to proxy
+03-28-15 18:09:27 | Proxy complete
