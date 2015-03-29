@@ -8,17 +8,19 @@
 <!--Bootstrap-->
             <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
                 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+               <link rel="stylesheet" href="http://js.arcgis.com/3.13/dijit/themes/claro/claro.css">
+    <link rel="stylesheet" href="http://js.arcgis.com/3.13/esri/css/esri.css">
 <!--Custom CSS-->
                 <link href="theme.css" rel="stylesheet">
 <!--JavaScript/Bootstrap-->
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
             <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
             <script type="text/javascript" src="slider/js/bootstrap-slider.js"></script>
-            <script type="text/javascript" src="http://js.arcgis.com/3.13/"></script>
-            <script type="text/javascript" src="maps.js"></script>
+     <script src="http://js.arcgis.com/3.13/"></script>
+    <script src="_scripts/maps.js"></script>
         </head>
 
-    <body role="document">
+    <body role="document" class="claro" onload="initialise();">
         <div class="site-wrapper">
             <div class="site-wrapper-inner">
                 <div class="cover-container">
@@ -35,9 +37,12 @@
                     <h1 class="cover-heading">Start Your Crawl</h1>
                     <div class="jumbotron">
                         <!--<h1>You are here</h1>-->
+                        <div id="map" style="width:600px; height:400px;"></div>
                         
-<!--                        Map goes here instead of the image-->
+<!--                        Map goes here instead of the image
                         <img src="http://maps.googleapis.com/maps/api/staticmap?center=52.48314,-2.011185&zoom=15&format=png&sensor=false&size=1000x480&maptype=roadmap&style=element:geometry|hue:0xff9100|gamma:1|invert_lightness:true|saturation:100|lightness:8&style=element:labels|invert_lightness:true|weight:0.4|hue:0xffc300|lightness:64"></img>
+
+-->
                     </div>
                 </div>
                 <div class="btn-group">
