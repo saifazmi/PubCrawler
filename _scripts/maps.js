@@ -80,10 +80,13 @@ function showBars(objects){
                 div1.style.backgroundColor = "#d9534f";}; })();
         div.appendChild(btn);
         
-        
-        div.appendChild(document.createTextNode(objects[i].name));
+        var name = document.createElement("div");
+            name.innerHTML = objects[i].name;
+            div.appendChild(name);
         if(objects[i].rating){
-            div.appendChild(document.createTextNode(objects[i].rating));   
+            var rating = document.createElement("div");
+            rating.innerHTML = objects[i].rating;
+            div.appendChild(rating);
         }
         wrapper.appendChild(div);
     }
