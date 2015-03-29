@@ -194,3 +194,7 @@ h5 {
     font-size: 3.6em;
     font-weight: 300;
 }
+.panel-body{
+ color: black;   
+text-shadow:none;
+}

@@ -395,3 +395,199 @@
 03-29-15 06:39:21 | Using session token
 03-29-15 06:39:23 | Ok to proxy
 03-29-15 06:39:23 | Proxy complete
+ 
+03-29-15 06:45:06 | GET detected
+03-29-15 06:45:06 | Using session token
+03-29-15 06:45:08 | Ok to proxy
+03-29-15 06:45:08 | Proxy complete
+ 
+03-29-15 06:46:22 | GET detected
+03-29-15 06:46:22 | Using session token
+03-29-15 06:46:23 | Ok to proxy
+03-29-15 06:46:23 | Proxy complete
+ 
+03-29-15 06:47:21 | GET detected
+03-29-15 06:47:21 | Using session token
+03-29-15 06:47:22 | Ok to proxy
+03-29-15 06:47:22 | Proxy complete
+ 
+03-29-15 06:47:32 | POST detected
+03-29-15 06:47:32 | Using session token
+03-29-15 06:47:34 | Ok to proxy
+03-29-15 06:47:34 | Proxy complete
+ 
+03-29-15 06:49:23 | GET detected
+03-29-15 06:49:23 | Using session token
+03-29-15 06:49:24 | Ok to proxy
+03-29-15 06:49:24 | Proxy complete
+ 
+03-29-15 06:49:27 | GET detected
+03-29-15 06:49:27 | Using session token
+03-29-15 06:49:29 | Ok to proxy
+03-29-15 06:49:29 | Proxy complete
+ 
+03-29-15 06:50:04 | GET detected
+03-29-15 06:50:05 | Using session token
+03-29-15 06:50:05 | Ok to proxy
+03-29-15 06:50:05 | Proxy complete
+ 
+03-29-15 06:51:06 | GET detected
+03-29-15 06:51:07 | Using session token
+03-29-15 06:51:07 | Ok to proxy
+03-29-15 06:51:07 | Proxy complete
+ 
+03-29-15 06:51:18 | GET detected
+03-29-15 06:51:18 | Using session token
+03-29-15 06:51:19 | Ok to proxy
+03-29-15 06:51:19 | Proxy complete
+ 
+03-29-15 06:52:20 | GET detected
+03-29-15 06:52:20 | Using session token
+03-29-15 06:52:21 | Ok to proxy
+03-29-15 06:52:21 | Proxy complete
+ 
+03-29-15 06:53:19 | GET detected
+03-29-15 06:53:19 | Using session token
+03-29-15 06:53:20 | Ok to proxy
+03-29-15 06:53:20 | Proxy complete
+ 
+03-29-15 06:55:23 | GET detected
+03-29-15 06:55:23 | Using session token
+03-29-15 06:55:24 | Ok to proxy
+03-29-15 06:55:24 | Proxy complete
+ 
+03-29-15 06:56:36 | GET detected
+03-29-15 06:56:37 | Using session token
+03-29-15 06:56:37 | Ok to proxy
+03-29-15 06:56:37 | Proxy complete
+ 
+03-29-15 06:57:59 | GET detected
+03-29-15 06:57:59 | Using session token
+03-29-15 06:58:00 | Ok to proxy
+03-29-15 06:58:00 | Proxy complete
+ 
+03-29-15 07:02:53 | GET detected
+03-29-15 07:02:53 | Using session token
+03-29-15 07:02:54 | Ok to proxy
+03-29-15 07:02:54 | Proxy complete
+ 
+03-29-15 07:04:25 | GET detected
+03-29-15 07:04:25 | Using session token
+03-29-15 07:04:26 | Ok to proxy
+03-29-15 07:04:26 | Proxy complete
+ 
+03-29-15 07:05:11 | GET detected
+03-29-15 07:05:11 | Using session token
+03-29-15 07:05:12 | Ok to proxy
+03-29-15 07:05:12 | Proxy complete
+ 
+03-29-15 07:08:51 | GET detected
+03-29-15 07:08:51 | Using session token
+03-29-15 07:08:52 | Ok to proxy
+03-29-15 07:08:52 | Proxy complete
+ 
+03-29-15 07:09:36 | GET detected
+03-29-15 07:09:36 | Using session token
+03-29-15 07:09:37 | Ok to proxy
+03-29-15 07:09:37 | Proxy complete
+ 
+03-29-15 07:10:49 | GET detected
+03-29-15 07:10:49 | Using session token
+03-29-15 07:10:50 | Ok to proxy
+03-29-15 07:10:50 | Proxy complete
+ 
+03-29-15 07:11:45 | GET detected
+03-29-15 07:11:45 | Using session token
+03-29-15 07:11:46 | Ok to proxy
+03-29-15 07:11:46 | Proxy complete
+ 
+03-29-15 07:15:41 | GET detected
+03-29-15 07:15:41 | Using session token
+03-29-15 07:15:43 | Ok to proxy
+03-29-15 07:15:43 | Proxy complete
+ 
+03-29-15 07:49:36 | POST detected
+03-29-15 07:49:36 | Using session token
+03-29-15 07:49:39 | Ok to proxy
+03-29-15 07:49:39 | Proxy complete
+ 
+03-29-15 07:52:09 | POST detected
+03-29-15 07:52:09 | Using session token
+03-29-15 07:52:13 | Ok to proxy
+03-29-15 07:52:13 | Proxy complete
+ 
+03-29-15 07:54:20 | POST detected
+03-29-15 07:54:21 | Using session token
+03-29-15 07:54:24 | Ok to proxy
+03-29-15 07:54:24 | Proxy complete
+ 
+03-29-15 07:57:44 | POST detected
+03-29-15 07:57:44 | Using session token
+03-29-15 07:57:47 | Ok to proxy
+03-29-15 07:57:47 | Proxy complete
+ 
+03-29-15 08:34:36 | GET detected
+03-29-15 08:34:36 | Using session token
+03-29-15 08:34:36 | Authorization failed : dojo.io.script.jsonp_dojoIoScript1._jsonpCallback({"error":{"code":498,"message":"Invalid Token","details":[]}});
+03-29-15 08:34:36 | Retry attempt 1 of 3
+03-29-15 08:34:36 | Resource using OAuth
+03-29-15 08:34:37 | Exchanging portal token for server-specific token for http://route.arcgis.com
+03-29-15 08:34:37 | Adding token to session
+03-29-15 08:34:37 | Using session token
+03-29-15 08:34:38 | Ok to proxy
+03-29-15 08:34:38 | Proxy complete
+ 
+03-29-15 08:38:27 | POST detected
+03-29-15 08:38:27 | Using session token
+03-29-15 08:38:28 | Ok to proxy
+03-29-15 08:38:28 | Proxy complete
+ 
+03-29-15 08:38:59 | GET detected
+03-29-15 08:38:59 | Using session token
+03-29-15 08:39:00 | Ok to proxy
+03-29-15 08:39:00 | Proxy complete
+ 
+03-29-15 08:39:24 | GET detected
+03-29-15 08:39:25 | Using session token
+03-29-15 08:39:25 | Ok to proxy
+03-29-15 08:39:25 | Proxy complete
+ 
+03-29-15 08:39:47 | GET detected
+03-29-15 08:39:47 | Using session token
+03-29-15 08:39:48 | Ok to proxy
+03-29-15 08:39:48 | Proxy complete
+ 
+03-29-15 08:39:56 | POST detected
+03-29-15 08:39:56 | Using session token
+03-29-15 08:39:57 | Ok to proxy
+03-29-15 08:39:57 | Proxy complete
+ 
+03-29-15 08:39:58 | POST detected
+03-29-15 08:39:58 | Using session token
+03-29-15 08:40:00 | Ok to proxy
+03-29-15 08:40:00 | Proxy complete
+ 
+03-29-15 08:40:10 | POST detected
+03-29-15 08:40:10 | Using session token
+03-29-15 08:40:12 | Ok to proxy
+03-29-15 08:40:12 | Proxy complete
+ 
+03-29-15 08:41:40 | GET detected
+03-29-15 08:41:40 | Using session token
+03-29-15 08:41:41 | Ok to proxy
+03-29-15 08:41:41 | Proxy complete
+ 
+03-29-15 08:41:52 | GET detected
+03-29-15 08:41:53 | Using session token
+03-29-15 08:41:53 | Ok to proxy
+03-29-15 08:41:53 | Proxy complete
+ 
+03-29-15 08:42:02 | GET detected
+03-29-15 08:42:02 | Using session token
+03-29-15 08:42:03 | Ok to proxy
+03-29-15 08:42:03 | Proxy complete
+ 
+03-29-15 08:44:27 | GET detected
+03-29-15 08:44:27 | Using session token
+03-29-15 08:44:28 | Ok to proxy
+03-29-15 08:44:28 | Proxy complete
