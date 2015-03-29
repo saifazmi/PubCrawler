@@ -49,7 +49,6 @@ function showBars(objects){
     document.getElementById("panel-body").innerHTML = "";
     var wrapper = document.createElement("div");
         wrapper.id = "objectwrapper";
-    wrapper.className = "bar-wrapper";
     
     for(var i=0; i<objects.length; i++){
         var div = document.createElement("div");
@@ -80,14 +79,12 @@ function showBars(objects){
                 return function(){
                 div1.style.backgroundColor = "#d9534f";}; })();
         div.appendChild(btn);
-                
+        
         var name = document.createElement("div");
-        name.className = "bar-name";
             name.innerHTML = objects[i].name;
             div.appendChild(name);
         if(objects[i].rating){
             var rating = document.createElement("div");
-            rating.className = "rating";
             rating.innerHTML = objects[i].rating;
             div.appendChild(rating);
         }
@@ -201,7 +198,8 @@ function esricode() {
 
         "esri/tasks/FeatureSet",            
         "esri/symbols/SimpleMarkerSymbol",
-        "esri/symbols/SimpleLineSymbol",          
+        "esri/symbols/SimpleLineSymbol",
+        "esri/symbols/PictureMarkerSymbol",
 
         "esri/Color",
         "dojo/_base/array",
@@ -215,7 +213,7 @@ function esricode() {
         "dijit/form/HorizontalRuleLabels"
       ], function (
         urlUtils, esriConfig, Map, Graphic, RouteTask, RouteParameters, SpatialReference, Point,
-        FeatureSet, SimpleMarkerSymbol, SimpleLineSymbol,           
+        FeatureSet, SimpleMarkerSymbol, SimpleLineSymbol, PictureMarkerSymbol,           
         Color, array, on, dom, registry
       ) {
         var map, routeTask, routeParams, routes = [];
@@ -242,8 +240,9 @@ function esricode() {
         routeTask.on("solve-complete", showRoute);
         routeTask.on("error", errorHandler);
                 
-        stopSymbol = new SimpleMarkerSymbol().setStyle(SimpleMarkerSymbol.STYLE_CROSS).setSize(15);
-        stopSymbol.outline.setWidth(3);
+        stopSymbol = new PictureMarkerSymbol("http://images.clipartpanda.com/beer-clipart-nicubunu_Beer_mug.png", 20, 20);
+     
+ 
 
         barrierSymbol = new SimpleMarkerSymbol().setStyle(SimpleMarkerSymbol.STYLE_X).setSize(10);
         barrierSymbol.outline.setWidth(3).setColor(new Color([255,0,0]));
