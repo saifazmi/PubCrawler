@@ -49,6 +49,7 @@ function showBars(objects){
     document.getElementById("panel-body").innerHTML = "";
     var wrapper = document.createElement("div");
         wrapper.id = "objectwrapper";
+    wrapper.className = "bar-wrapper";
     
     for(var i=0; i<objects.length; i++){
         var div = document.createElement("div");
@@ -79,12 +80,14 @@ function showBars(objects){
                 return function(){
                 div1.style.backgroundColor = "#d9534f";}; })();
         div.appendChild(btn);
-        
+                
         var name = document.createElement("div");
+        name.className = "bar-name";
             name.innerHTML = objects[i].name;
             div.appendChild(name);
         if(objects[i].rating){
             var rating = document.createElement("div");
+            rating.className = "rating";
             rating.innerHTML = objects[i].rating;
             div.appendChild(rating);
         }

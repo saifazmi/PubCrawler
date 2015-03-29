@@ -205,6 +205,11 @@ text-shadow:none;
     border: 0px;
 }
 
+.map {
+    box-shadow: 0px 1px 2px #CCCCCC;
+    border-radius: 5px;
+}
+
 .panel {
     background: #333333;
     box-shadow: inset 0px 2px 20px #000, 0px 1px 1px #CCCCCC;
@@ -229,4 +234,22 @@ text-shadow:none;
     height: auto;
     max-height: 200px;
     overflow-x: hidden;
+}
+
+.bar-name {
+    display: inline-block;
+    padding-top: 5px;
+    color: #fff;
+    text-shadow: 0px 1px 0px #000;
+}
+
+.rating {
+    float: right;
+    display: inline-block;
+    background: linear-gradient(#E4AF37, #DD9B05);
+    text-shadow: 0px 1px 0px #fff;
+    color: #6E4E02;
+    padding: 1px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 1px #000, inset 0px 1px 1px #fff;
 }
