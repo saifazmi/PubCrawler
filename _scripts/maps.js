@@ -40,7 +40,7 @@ function loadBars(jsonhttp){
         };
         barObjs.push(bar);
     }  
-              var temp = getBarObjs();
+        var temp = getBarObjs();
         showBars(temp);
  
 }
@@ -64,7 +64,7 @@ function showBars(objects){
         
         var btn = document.createElement("button");
             btn.className = "btn btn-primary";
-            btn.value = "yes";
+            btn.value = "dontcare";
             btn.onclick = (function() { 
                 var div1 = div;
                 return function(){
@@ -73,16 +73,16 @@ function showBars(objects){
         
         var btn = document.createElement("button");
             btn.className = "btn btn-danger";
-            btn.value = "yes";
+            btn.value = "no";
             btn.onclick = (function() { 
                 var div1 = div;
                 return function(){
                 div1.style.backgroundColor = "#d9534f";}; })();
         div.appendChild(btn);
-        
+                
         var name = document.createElement("div");
+        name.className = "bar-name";
             name.innerHTML = objects[i].name;
-            name.className = "bar-name";
             div.appendChild(name);
         if(objects[i].rating){
             var rating = document.createElement("div");
@@ -127,15 +127,16 @@ function sortObjs(){
     
     var objectwrapper = document.getElementById("objectwrapper");
     var objectdivs = objectwrapper.childNodes;
+    console.log(objectdivs);
     for(var i=0; i<objectdivs.length; i++){
         switch(objectdivs[i].style.backgroundColor){
-            case "lightblue":
+            case "rgb(173, 216, 230)":
                 temp[i].option = "dontcare";
                 break;
-            case "red":
+            case "rgb(217, 83, 79)":
                 temp[i].option = "no";
                 break;
-            case "#5cb85c":
+            case "rgb(92, 184, 92)":
                 temp[i].option = "yes";
                 break;
             default:
@@ -215,7 +216,7 @@ function esricode() {
         "dijit/form/HorizontalRuleLabels"
       ], function (
         urlUtils, esriConfig, Map, Graphic, RouteTask, RouteParameters, SpatialReference, Point,
-        FeatureSet, SimpleMarkerSymbol, SimpleLineSymbol, PictureMarkerSymbol,           
+        FeatureSet, SimpleMarkerSymbol, SimpleLineSymbol, PictureMarkerSymbol,          
         Color, array, on, dom, registry
       ) {
         var map, routeTask, routeParams, routes = [];
@@ -242,17 +243,13 @@ function esricode() {
         routeTask.on("solve-complete", showRoute);
         routeTask.on("error", errorHandler);
                 
-        stopSymbol = new PictureMarkerSymbol("http://images.clipartpanda.com/beer-clipart-nicubunu_Beer_mug.png", 20, 20);
-     
- 
+       stopSymbol = new PictureMarkerSymbol("http://images.clipartpanda.com/beer-clipart-nicubunu_Beer_mug.png", 20, 20);
 
         barrierSymbol = new SimpleMarkerSymbol().setStyle(SimpleMarkerSymbol.STYLE_X).setSize(10);
         barrierSymbol.outline.setWidth(3).setColor(new Color([255,0,0]));
 
         routeSymbols = {
-          "Route 1": new SimpleLineSymbol().setColor(new Color([0,0,255,0.5])).setWidth(5),
-          "Route 2": new SimpleLineSymbol().setColor(new Color([0,255,0,0.5])).setWidth(5),
-          "Route 3": new SimpleLineSymbol().setColor(new Color([255,0,255,0.5])).setWidth(5)
+          "Route 1": new SimpleLineSymbol().setColor(new Color([221,155,5,0.9])).setWidth(5)
         };
             
         
@@ -401,4 +398,3 @@ function esricode() {
       });
 
 }
-
