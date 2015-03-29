@@ -40,31 +40,11 @@ function loadBars(jsonhttp){
         };
         barObjs.push(bar);
     }  
-    
+              var temp = getBarObjs();
+        showBars(temp);
  
 }
-/*
-function showBars(objects){
-    document.getElementById("panel-body").innerHTML = "";
-    var $wrapper = $("<div>");
-    
-    for(var i = 0; i < objects.length; i++){
-        var $div = $("<div>");
-        var $bar = $("<button>", {class: "btn btn-success", value:"yes"});
-        $bar.click = function() { $div.css("background-color", "green"); };
-        $div.append($bar);
-        var $bar = $("<button>", {class: "btn btn-primary", value:"dontcare"});
-        $div.append($bar);
-        var $bar = $("<button>", {class: "btn btn-danger", value:"no"});
-        $div.append($bar);
-        $div.append(objects[i].name);
-        
-        $wrapper.append($div);
-    }
-    console.log($wrapper);
-    $(".panel-body").append($wrapper);
-}  
-*/
+
 function showBars(objects){
     document.getElementById("panel-body").innerHTML = "";
     var wrapper = document.createElement("div");
@@ -79,7 +59,7 @@ function showBars(objects){
             btn.onclick = (function() { 
                 var div1 = div;
                 return function(){
-                div1.style.backgroundColor = "green";}; })();
+                div1.style.backgroundColor = "#5cb85c";}; })();
         div.appendChild(btn);
         
         var btn = document.createElement("button");
@@ -97,11 +77,14 @@ function showBars(objects){
             btn.onclick = (function() { 
                 var div1 = div;
                 return function(){
-                div1.style.backgroundColor = "red";}; })();
+                div1.style.backgroundColor = "#d9534f";}; })();
         div.appendChild(btn);
         
         
         div.appendChild(document.createTextNode(objects[i].name));
+        if(objects[i].rating){
+            div.appendChild(document.createTextNode(objects[i].rating));   
+        }
         wrapper.appendChild(div);
     }
     document.getElementById("panel-body").appendChild(wrapper);
@@ -147,7 +130,7 @@ function sortObjs(){
             case "red":
                 temp[i].option = "no";
                 break;
-            case "green":
+            case "#5cb85c":
                 temp[i].option = "yes";
                 break;
             default:
@@ -165,7 +148,6 @@ function sortObjs(){
             yes.push(dontcare[i]);
         }
     }
-    console.log(yes);
     return yes; 
     
 }
@@ -265,7 +247,8 @@ function esricode() {
           "Route 2": new SimpleLineSymbol().setColor(new Color([0,255,0,0.5])).setWidth(5),
           "Route 3": new SimpleLineSymbol().setColor(new Color([255,0,255,0.5])).setWidth(5)
         };
-                        
+            
+        
         //button click event listeners can't be added directly in HTML when the code is wrapped in an AMD callback
   
        on(dom.byId("numberpubs"), "click", function() {    
@@ -280,8 +263,6 @@ function esricode() {
           clearStops();
           addStops();
           solveRoute();
-            
-      
       });
 
         //Begins listening for click events to add stops
@@ -408,7 +389,9 @@ function esricode() {
           alert("An error occured\n" + err.message + "\n" + err.details.join("\n"));
         }
       
+     
+  
       });
-    
+
 }
 
