@@ -696,3 +696,155 @@
 03-29-15 11:36:44 | Using session token
 03-29-15 11:36:45 | Ok to proxy
 03-29-15 11:36:45 | Proxy complete
+ 
+03-29-15 11:37:50 | GET detected
+03-29-15 11:37:50 | Using session token
+03-29-15 11:37:50 | Ok to proxy
+03-29-15 11:37:50 | Proxy complete
+ 
+03-29-15 11:39:08 | GET detected
+03-29-15 11:39:08 | Using session token
+03-29-15 11:39:09 | Ok to proxy
+03-29-15 11:39:09 | Proxy complete
+ 
+03-29-15 11:39:23 | GET detected
+03-29-15 11:39:23 | Using session token
+03-29-15 11:39:24 | Ok to proxy
+03-29-15 11:39:24 | Proxy complete
+ 
+03-29-15 11:39:33 | GET detected
+03-29-15 11:39:33 | Using session token
+03-29-15 11:39:34 | Ok to proxy
+03-29-15 11:39:34 | Proxy complete
+ 
+03-29-15 11:39:44 | GET detected
+03-29-15 11:39:44 | Using session token
+03-29-15 11:39:45 | Ok to proxy
+03-29-15 11:39:45 | Proxy complete
+ 
+03-29-15 11:44:19 | GET detected
+03-29-15 11:44:19 | Using session token
+03-29-15 11:44:19 | Ok to proxy
+03-29-15 11:44:19 | Proxy complete
+ 
+03-29-15 11:44:24 | GET detected
+03-29-15 11:44:24 | Using session token
+03-29-15 11:44:25 | Ok to proxy
+03-29-15 11:44:25 | Proxy complete
+ 
+03-29-15 11:44:25 | GET detected
+03-29-15 11:44:25 | Using session token
+03-29-15 11:44:25 | Ok to proxy
+03-29-15 11:44:25 | Proxy complete
+ 
+03-29-15 11:44:25 | GET detected
+03-29-15 11:44:25 | Using session token
+03-29-15 11:44:26 | Ok to proxy
+03-29-15 11:44:26 | Proxy complete
+ 
+03-29-15 11:44:26 | GET detected
+03-29-15 11:44:26 | Using session token
+03-29-15 11:44:26 | Ok to proxy
+03-29-15 11:44:26 | Proxy complete
+ 
+03-29-15 11:44:31 | GET detected
+03-29-15 11:44:31 | Using session token
+03-29-15 11:44:31 | Ok to proxy
+03-29-15 11:44:31 | Proxy complete
+ 
+03-29-15 11:44:42 | GET detected
+03-29-15 11:44:42 | Using session token
+03-29-15 11:44:43 | Ok to proxy
+03-29-15 11:44:43 | Proxy complete
+ 
+03-29-15 11:45:08 | POST detected
+03-29-15 11:45:08 | Using session token
+03-29-15 11:45:11 | Ok to proxy
+03-29-15 11:45:11 | Proxy complete
+ 
+03-29-15 12:10:39 | GET detected
+03-29-15 12:10:39 | Using session token
+03-29-15 12:10:40 | Ok to proxy
+03-29-15 12:10:40 | Proxy complete
+ 
+03-29-15 12:12:37 | GET detected
+03-29-15 12:12:37 | Using session token
+03-29-15 12:12:38 | Ok to proxy
+03-29-15 12:12:38 | Proxy complete
+ 
+03-29-15 12:12:45 | GET detected
+03-29-15 12:12:46 | Using session token
+03-29-15 12:12:46 | Ok to proxy
+03-29-15 12:12:46 | Proxy complete
+ 
+03-29-15 12:12:55 | POST detected
+03-29-15 12:12:55 | Using session token
+03-29-15 12:12:57 | Ok to proxy
+03-29-15 12:12:57 | Proxy complete
+ 
+03-29-15 12:41:21 | GET detected
+03-29-15 12:41:21 | Using session token
+03-29-15 12:41:21 | Authorization failed : dojo.io.script.jsonp_dojoIoScript1._jsonpCallback({"error":{"code":498,"message":"Invalid Token","details":[]}});
+03-29-15 12:41:21 | Retry attempt 1 of 3
+03-29-15 12:41:21 | Resource using OAuth
+03-29-15 12:41:21 | Exchanging portal token for server-specific token for http://route.arcgis.com
+03-29-15 12:41:22 | Adding token to session
+03-29-15 12:41:22 | Using session token
+03-29-15 12:41:22 | Ok to proxy
+03-29-15 12:41:22 | Proxy complete
+ 
+03-29-15 12:49:54 | GET detected
+03-29-15 12:49:54 | Using session token
+03-29-15 12:49:55 | Ok to proxy
+03-29-15 12:49:55 | Proxy complete
+ 
+03-29-15 12:51:05 | GET detected
+03-29-15 12:51:05 | Using session token
+03-29-15 12:51:06 | Ok to proxy
+03-29-15 12:51:06 | Proxy complete
+ 
+03-29-15 13:11:43 | GET detected
+03-29-15 13:11:43 | Using session token
+03-29-15 13:11:44 | Ok to proxy
+03-29-15 13:11:44 | Proxy complete
+ 
+03-29-15 13:12:42 | GET detected
+03-29-15 13:12:42 | Using session token
+03-29-15 13:12:43 | Ok to proxy
+03-29-15 13:12:43 | Proxy complete
+ 
+03-29-15 13:14:11 | GET detected
+03-29-15 13:14:11 | Using session token
+03-29-15 13:14:13 | Ok to proxy
+03-29-15 13:14:13 | Proxy complete
+ 
+03-29-15 13:14:48 | GET detected
+03-29-15 13:14:48 | Using session token
+03-29-15 13:14:49 | Ok to proxy
+03-29-15 13:14:49 | Proxy complete
+ 
+03-29-15 13:15:00 | GET detected
+03-29-15 13:15:00 | Using session token
+03-29-15 13:15:01 | Ok to proxy
+03-29-15 13:15:01 | Proxy complete
+ 
+03-29-15 13:29:46 | GET detected
+03-29-15 13:29:46 | Using session token
+03-29-15 13:29:47 | Ok to proxy
+03-29-15 13:29:47 | Proxy complete
+ 
+03-29-15 15:23:34 | GET detected
+03-29-15 15:23:34 | Using session token
+03-29-15 15:23:34 | Authorization failed : dojo.io.script.jsonp_dojoIoScript1._jsonpCallback({"error":{"code":498,"message":"Invalid Token","details":[]}});
+03-29-15 15:23:34 | Retry attempt 1 of 3
+03-29-15 15:23:34 | Resource using OAuth
+03-29-15 15:23:35 | Exchanging portal token for server-specific token for http://route.arcgis.com
+03-29-15 15:23:35 | Adding token to session
+03-29-15 15:23:35 | Using session token
+03-29-15 15:23:37 | Ok to proxy
+03-29-15 15:23:37 | Proxy complete
+ 
+03-29-15 15:23:49 | GET detected
+03-29-15 15:23:49 | Using session token
+03-29-15 15:23:50 | Ok to proxy
+03-29-15 15:23:50 | Proxy complete
