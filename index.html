@@ -10,6 +10,7 @@
                 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
                <link rel="stylesheet" href="http://js.arcgis.com/3.13/dijit/themes/claro/claro.css">
     <link rel="stylesheet" href="http://js.arcgis.com/3.13/esri/css/esri.css">
+            
 <!--Custom CSS-->
                 <link href="theme.css" rel="stylesheet">
 <!--JavaScript/Bootstrap-->
@@ -21,6 +22,7 @@
         </head>
 
     <body role="document" class="claro" onload="initialise();">
+        <div id="routeName" style="display:none">Route 1</div>
         <div class="site-wrapper">
             <div class="site-wrapper-inner">
                 <div class="cover-container">
@@ -34,15 +36,18 @@
             <div class="container theme-showcase" role="main">
                 
                 <div class="inner cover">
+                    <div class="textcenter"> 
                     <h1 class="cover-heading">Start Your Crawl</h1>
+                    </div>
                     <div class="jumbotron">
                         <!--<h1>You are here</h1>-->
-                        <div id="map" style="width:600px; height:400px;"></div>
-                        
+                        <div class="container">
+                        <div id="map" style="width:100%"></div>
+                        </div>
 
                     </div>
                 </div>
-                
+                <div class="textcenter">
                 <div class="btn-group">
                     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
                         Number of Bars <span class="caret"></span>
@@ -72,17 +77,10 @@
                 </div>
                 
                 <div class="btn-group">
-                    <button type="button" class="btn btn-default">Radius</button>
-                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                        <span class="caret"></span>
-                        <span class="sr-only">Toggle Dropdown</span>
-                    </button>
-                    
-                    <ul class="dropdown-menu" role="menu">
-                        <li><a href="#">4</a></li>
-                        <li><a href="#">5</a></li>
-                        <li><a href="#">6</a></li>
-                    </ul>
+                    <button type="button" class="btn btn-success" id="addStopsBtn">Points</button>
+                    <button type="button" class="btn btn-success" id="solveRoutesBtn">Route</button>
+ 
+                </div>
                 </div>
             </div>
         </div>

@@ -31,7 +31,6 @@ body {
 }
 body {
   color: #fff;
-  text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
 
@@ -118,6 +117,10 @@ body {
 /*
  * Affix and center
  */
+.textcenter {
+    text-align: center;
+}
+
 
 @media (min-width: 768px) {
   /* Pull out the header and footer */
@@ -177,21 +180,12 @@ body {
 
 .jumbotron {
     width: 100%;
-    padding: 10px;
-    padding-top: 10px;
     background: #333333;
     box-shadow: inset 0px 2px 20px #000, 0px 1px 1px #fff;
 }
-
-.jumbotron h1 {
-    color: grey;
-    text-shadow: 0px 1px 1px #fff;
+.container .jumbotron, .container {
+    padding:0px;   
 }
-
-.jumbotron img {
-    width: 100%;
-}
-
 h5 {
     color: #DD9B05;
     text-align: center;
