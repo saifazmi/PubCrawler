@@ -1,16 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
-    
-  <head>
-    <meta charset="utf-8">
-    <title>title</title>
-    <link rel="stylesheet" href="_style/style.css">
-    <script src="http://js.arcgis.com/3.13/"></script>
-    <script src="_scripts/script.js"></script>
-  </head>
-    
-  <body>
-    <!-- page content -->
+    <html lang="en">
+        <head>
+            <title>BarCrawler</title>
+            
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--Bootstrap-->
+            <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+                <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+<!--Custom CSS-->
+                <link href="theme.css" rel="stylesheet">
+<!--JavaScript/Bootstrap-->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+            <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+            <script type="text/javascript" src="slider/js/bootstrap-slider.js"></script>
+            <script type="text/javascript" src="http://js.arcgis.com/3.13/"></script>
+            <script type="text/javascript" src="maps.js"></script>
+        </head>
+
+    <body role="document">
+        <div class="site-wrapper">
+            <div class="site-wrapper-inner">
+                <div class="cover-container">
+                    <div class="masthead clearfix">
+                        <div class="inner">
+                            <h5 class="masthead-brand" align="center"><b>Bar</b>Crawler</h5>
+                        </div>
+                    </div>
+                </div>
+                
+            <div class="container theme-showcase" role="main">
+                
+                <div class="inner cover">
+                    <h1 class="cover-heading">Start Your Crawl</h1>
+                    <div class="jumbotron">
+                        <!--<h1>You are here</h1>-->
+                        
+<!--                        Map goes here instead of the image-->
+                        <img src="http://maps.googleapis.com/maps/api/staticmap?center=52.48314,-2.011185&zoom=15&format=png&sensor=false&size=1000x480&maptype=roadmap&style=element:geometry|hue:0xff9100|gamma:1|invert_lightness:true|saturation:100|lightness:8&style=element:labels|invert_lightness:true|weight:0.4|hue:0xffc300|lightness:64"></img>
+                    </div>
+                </div>
+                <div class="btn-group">
+                    <button type="button" class="btn btn-default">Number of Pubs</button>
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                        <span class="caret"></span>
+                        <span class="sr-only">Toggle Dropdown</span>
+                    </button>
+                    
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li><a href="#">6</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>        
   </body>
-    
 </html>
