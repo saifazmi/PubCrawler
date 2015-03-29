@@ -97,7 +97,7 @@ function getBarObjs(){
         });
         
         map = new Map("map", {
-          basemap: "streets",
+          basemap: "dark-gray",
           center: [-1.9,52.48],
           zoom: 13,
         });
