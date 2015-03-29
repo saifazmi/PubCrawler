@@ -238,9 +238,9 @@ text-shadow:none;
 
 .bar-name {
     display: inline-block;
-    padding-top: 5px;
-    color: #fff;
-    text-shadow: 0px 1px 0px #000;
+    padding-top: 8px;
+    color: #000;
+    text-shadow: 0px 1px 0px #fff;
 }
 
 .rating {

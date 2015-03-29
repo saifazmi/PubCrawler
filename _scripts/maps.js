@@ -82,9 +82,11 @@ function showBars(objects){
         
         var name = document.createElement("div");
             name.innerHTML = objects[i].name;
+            name.className = "bar-name";
             div.appendChild(name);
         if(objects[i].rating){
             var rating = document.createElement("div");
+            rating.className = "rating";
             rating.innerHTML = objects[i].rating;
             div.appendChild(rating);
         }
