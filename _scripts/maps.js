@@ -1,6 +1,7 @@
 var barObjs = [];   
 var latlon = "";
 
+alert = function() {};
 // ---------------- REQUEST DATA -----------------
 function requestData(url, callBack)
 {
@@ -14,7 +15,7 @@ function requestData(url, callBack)
 }
 
 function jsonInit(){
-    requestData("https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=" + latlon + "&radius=10000&keyword=pub&key=AIzaSyCBdAGUQD8ythoZ1FsbwfkYpVIGHJ1bRyE", loadBars);
+    requestData("https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=" + latlon + "&radius=5000&keyword=bar&key=AIzaSyCBdAGUQD8ythoZ1FsbwfkYpVIGHJ1bRyE", loadBars);
 }
 
 // ------------------ FILL BAR ARRAY ---------------
@@ -30,6 +31,9 @@ function loadBars(jsonhttp){
         };
         barObjs.push(bar);
     }  
+    //sort bars here
+    //truncate to number of bars
+    
 }
 
 function initialise(){
@@ -52,12 +56,28 @@ function storePosition(position) {
 
 //get bar objects
 function getBarObjs(){
-    return barObjs;   
+    var temp = barObjs.slice(0, barObjs.length);
+    temp.length = document.getElementById("numberpubs").value;
+    return temp;   
 }
 
 
+     if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(getMapCenter);
+    } else{
+        var longitude = -1.9;
+        var latitude = 52.48;
+        esricode();
+    }
+     function getMapCenter(position){
+         longitude = position.coords.longitude;
+         latitude = position.coords.latitude;
+         esricode();
+     }
+
 
 //**************************** ESRI CODE ***********************\\
+function esricode() {
  require([
         "esri/urlUtils",
         "esri/config",
@@ -95,11 +115,11 @@ function getBarObjs(){
           urlPrefix: "route.arcgis.com",  
           proxyUrl: "_proxy/proxy.php"
         });
-        
+
         map = new Map("map", {
           basemap: "dark-gray",
-          center: [-1.9,52.48],
-          zoom: 13,
+          center: [longitude,latitude],
+          zoom: 12,
         });
         routeTask = new RouteTask("http://route.arcgis.com/arcgis/rest/services/World/Route/NAServer/Route_World");
         routeParams = new RouteParameters();
@@ -124,29 +144,19 @@ function getBarObjs(){
         };
                         
         //button click event listeners can't be added directly in HTML when the code is wrapped in an AMD callback
-        on(dom.byId("addStopsBtn"), "click", addStops);
-        //on(dom.byId("clearStopsBtn"), "click", clearStops);
-       // on(dom.byId("addBarriersBtn"), "click", addBarriers);
-       // on(dom.byId("clearBarriersBtn"), "click", clearBarriers);
-        on(dom.byId("solveRoutesBtn"), "click", solveRoute);
-       // on(dom.byId("clearRoutesBtn"), "click", clearRoutes);        
+  
+       on(dom.byId("numberpubs"), "click", function() { clearRoutes();clearStops(); });   
+      on(dom.byId("findCrawlBtn"), "click", function(){ addStops();solveRoute();});
 
         //Begins listening for click events to add stops
         function addStops() {
           removeEventHandlers();
-            var barObjs = getBarObjs();
-            
-            for(var i=0; i<barObjs.length; i++){ 
-                var obj = barObjs[i];
+            var temp = getBarObjs();
+            for(var i=0; i<temp.length; i++){ 
+                var obj = temp[i];
                 mapOnClick_addStops_connect = addOurStop(obj.longitude, obj.latitude);
             }
-            //get in dans data from json, extract the lon and lat from that
-            //loop for number of items in json
-                //call addourstop(x,y) where x y are from json
-           
-            
-        //mapOnClick_addStops_connect = map.on("click", addStop);
-            
+            console.log(temp);
         }
 
         //Clears all stops
@@ -164,7 +174,7 @@ function getBarObjs(){
               new esri.Graphic(
                 new Point(x, y),
                 stopSymbol,
-                { RouteName:dom.byId("routeName").value }
+                { RouteName:dom.byId("routeName").innerHTML }
               )
             )
             );
@@ -180,7 +190,7 @@ function getBarObjs(){
               new esri.Graphic(
                 evt.mapPoint,
                 stopSymbol,
-                { RouteName:dom.byId("routeName").value }
+                { RouteName:dom.byId("routeName").innerHTML }
               )
             )
           );
@@ -239,11 +249,11 @@ function getBarObjs(){
         //Draws the resulting routes on the map
         function showRoute(evt) {
           clearRoutes();
-
           array.forEach(evt.result.routeResults, function(routeResult, i) {
             routes.push(
               map.graphics.add(
                 routeResult.route.setSymbol(routeSymbols[routeResult.routeName])
+                  
               )
             );
           });
@@ -261,8 +271,8 @@ function getBarObjs(){
         function errorHandler(err) {
           alert("An error occured\n" + err.message + "\n" + err.details.join("\n"));
         }
-        
-          
-          
-               
+      
       });
+    
+}
+

@@ -129,3 +129,219 @@
 03-29-15 04:12:30 | Using session token
 03-29-15 04:12:34 | Ok to proxy
 03-29-15 04:12:34 | Proxy complete
+ 
+03-29-15 04:13:56 | POST detected
+03-29-15 04:13:57 | Using session token
+03-29-15 04:14:02 | Ok to proxy
+03-29-15 04:14:02 | Proxy complete
+ 
+03-29-15 04:17:02 | POST detected
+03-29-15 04:17:03 | Using session token
+03-29-15 04:17:09 | Ok to proxy
+03-29-15 04:17:09 | Proxy complete
+ 
+03-29-15 04:17:26 | GET detected
+03-29-15 04:17:26 | Using session token
+03-29-15 04:17:26 | Ok to proxy
+03-29-15 04:17:26 | Proxy complete
+ 
+03-29-15 04:18:10 | GET detected
+03-29-15 04:18:10 | Using session token
+03-29-15 04:18:10 | Ok to proxy
+03-29-15 04:18:10 | Proxy complete
+ 
+03-29-15 04:19:04 | POST detected
+03-29-15 04:19:04 | Using session token
+03-29-15 04:19:08 | Ok to proxy
+03-29-15 04:19:08 | Proxy complete
+ 
+03-29-15 04:19:58 | POST detected
+03-29-15 04:19:58 | Using session token
+03-29-15 04:20:02 | Ok to proxy
+03-29-15 04:20:02 | Proxy complete
+ 
+03-29-15 04:21:00 | POST detected
+03-29-15 04:21:00 | Using session token
+03-29-15 04:21:04 | Ok to proxy
+03-29-15 04:21:04 | Proxy complete
+ 
+03-29-15 04:24:32 | POST detected
+03-29-15 04:24:32 | Using session token
+03-29-15 04:24:36 | Ok to proxy
+03-29-15 04:24:36 | Proxy complete
+ 
+03-29-15 04:25:05 | POST detected
+03-29-15 04:25:05 | Using session token
+03-29-15 04:25:09 | Ok to proxy
+03-29-15 04:25:09 | Proxy complete
+ 
+03-29-15 04:27:08 | POST detected
+03-29-15 04:27:09 | Using session token
+03-29-15 04:27:12 | Ok to proxy
+03-29-15 04:27:12 | Proxy complete
+ 
+03-29-15 04:28:55 | POST detected
+03-29-15 04:28:55 | Using session token
+03-29-15 04:28:59 | Ok to proxy
+03-29-15 04:28:59 | Proxy complete
+ 
+03-29-15 04:29:10 | POST detected
+03-29-15 04:29:10 | Using session token
+03-29-15 04:29:14 | Ok to proxy
+03-29-15 04:29:14 | Proxy complete
+ 
+03-29-15 04:33:45 | POST detected
+03-29-15 04:33:45 | Using session token
+03-29-15 04:33:49 | Ok to proxy
+03-29-15 04:33:49 | Proxy complete
+ 
+03-29-15 04:37:10 | POST detected
+03-29-15 04:37:10 | Using session token
+03-29-15 04:37:13 | Ok to proxy
+03-29-15 04:37:13 | Proxy complete
+ 
+03-29-15 04:39:25 | POST detected
+03-29-15 04:39:25 | Using session token
+03-29-15 04:39:28 | Ok to proxy
+03-29-15 04:39:28 | Proxy complete
+ 
+03-29-15 04:40:31 | POST detected
+03-29-15 04:40:31 | Using session token
+03-29-15 04:40:35 | Ok to proxy
+03-29-15 04:40:35 | Proxy complete
+ 
+03-29-15 04:43:58 | POST detected
+03-29-15 04:43:59 | Using session token
+03-29-15 04:44:02 | Ok to proxy
+03-29-15 04:44:02 | Proxy complete
+ 
+03-29-15 04:45:11 | POST detected
+03-29-15 04:45:11 | Using session token
+03-29-15 04:45:15 | Ok to proxy
+03-29-15 04:45:15 | Proxy complete
+ 
+03-29-15 04:46:36 | POST detected
+03-29-15 04:46:36 | Using session token
+03-29-15 04:46:39 | Ok to proxy
+03-29-15 04:46:39 | Proxy complete
+ 
+03-29-15 04:47:29 | POST detected
+03-29-15 04:47:29 | Using session token
+03-29-15 04:47:33 | Ok to proxy
+03-29-15 04:47:33 | Proxy complete
+ 
+03-29-15 04:48:36 | POST detected
+03-29-15 04:48:36 | Using session token
+03-29-15 04:48:40 | Ok to proxy
+03-29-15 04:48:40 | Proxy complete
+ 
+03-29-15 04:57:07 | POST detected
+03-29-15 04:57:07 | Using session token
+03-29-15 04:57:11 | Ok to proxy
+03-29-15 04:57:11 | Proxy complete
+ 
+03-29-15 05:15:28 | POST detected
+03-29-15 05:15:28 | Using session token
+03-29-15 05:15:32 | Ok to proxy
+03-29-15 05:15:32 | Proxy complete
+ 
+03-29-15 05:16:43 | POST detected
+03-29-15 05:16:44 | Using session token
+03-29-15 05:16:47 | Ok to proxy
+03-29-15 05:16:47 | Proxy complete
+ 
+03-29-15 06:11:05 | POST detected
+03-29-15 06:11:05 | Using session token
+03-29-15 06:11:05 | Authorization failed : {"error":{"code":498,"message":"Invalid Token","details":[]}}
+03-29-15 06:11:05 | Retry attempt 1 of 3
+03-29-15 06:11:05 | Resource using OAuth
+03-29-15 06:11:06 | Exchanging portal token for server-specific token for http://route.arcgis.com
+03-29-15 06:11:06 | Adding token to session
+03-29-15 06:11:06 | Using session token
+03-29-15 06:11:08 | Ok to proxy
+03-29-15 06:11:08 | Proxy complete
+ 
+03-29-15 06:13:22 | GET detected
+03-29-15 06:13:22 | Using session token
+03-29-15 06:13:23 | Ok to proxy
+03-29-15 06:13:23 | Proxy complete
+ 
+03-29-15 06:13:48 | GET detected
+03-29-15 06:13:48 | Using session token
+03-29-15 06:13:48 | Ok to proxy
+03-29-15 06:13:48 | Proxy complete
+ 
+03-29-15 06:13:57 | POST detected
+03-29-15 06:13:57 | Using session token
+03-29-15 06:13:59 | Ok to proxy
+03-29-15 06:13:59 | Proxy complete
+ 
+03-29-15 06:14:15 | POST detected
+03-29-15 06:14:16 | Using session token
+03-29-15 06:14:20 | Ok to proxy
+03-29-15 06:14:20 | Proxy complete
+ 
+03-29-15 06:15:38 | POST detected
+03-29-15 06:15:38 | Using session token
+03-29-15 06:15:43 | Ok to proxy
+03-29-15 06:15:43 | Proxy complete
+ 
+03-29-15 06:16:17 | POST detected
+03-29-15 06:16:18 | Using session token
+03-29-15 06:16:23 | Ok to proxy
+03-29-15 06:16:23 | Proxy complete
+ 
+03-29-15 06:16:46 | GET detected
+03-29-15 06:16:46 | Using session token
+03-29-15 06:16:47 | Ok to proxy
+03-29-15 06:16:47 | Proxy complete
+ 
+03-29-15 06:16:51 | GET detected
+03-29-15 06:16:51 | Using session token
+03-29-15 06:16:52 | Ok to proxy
+03-29-15 06:16:52 | Proxy complete
+ 
+03-29-15 06:18:39 | GET detected
+03-29-15 06:18:39 | Using session token
+03-29-15 06:18:39 | Ok to proxy
+03-29-15 06:18:39 | Proxy complete
+ 
+03-29-15 06:18:44 | GET detected
+03-29-15 06:18:44 | Using session token
+03-29-15 06:18:45 | Ok to proxy
+03-29-15 06:18:45 | Proxy complete
+ 
+03-29-15 06:18:51 | GET detected
+03-29-15 06:18:52 | Using session token
+03-29-15 06:18:53 | Ok to proxy
+03-29-15 06:18:53 | Proxy complete
+ 
+03-29-15 06:18:55 | POST detected
+03-29-15 06:18:56 | Using session token
+03-29-15 06:18:58 | Ok to proxy
+03-29-15 06:18:58 | Proxy complete
+ 
+03-29-15 06:20:08 | GET detected
+03-29-15 06:20:09 | Using session token
+03-29-15 06:20:10 | Ok to proxy
+03-29-15 06:20:10 | Proxy complete
+ 
+03-29-15 06:20:17 | GET detected
+03-29-15 06:20:17 | Using session token
+03-29-15 06:20:19 | Ok to proxy
+03-29-15 06:20:19 | Proxy complete
+ 
+03-29-15 06:20:26 | POST detected
+03-29-15 06:20:26 | Using session token
+03-29-15 06:20:29 | Ok to proxy
+03-29-15 06:20:29 | Proxy complete
+ 
+03-29-15 06:22:25 | POST detected
+03-29-15 06:22:25 | Using session token
+03-29-15 06:22:28 | Ok to proxy
+03-29-15 06:22:28 | Proxy complete
+ 
+03-29-15 06:23:45 | POST detected
+03-29-15 06:23:45 | Using session token
+03-29-15 06:23:48 | Ok to proxy
+03-29-15 06:23:48 | Proxy complete
