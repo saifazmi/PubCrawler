@@ -31,10 +31,26 @@ function loadBars(jsonhttp){
         };
         barObjs.push(bar);
     }  
-    //sort bars here
-    //truncate to number of bars
     
+ 
 }
+
+function showBars(objects){
+    document.getElementById("panel-body").innerHTML = "";
+    var $list = $("<ul>");
+    
+    for(var i = 0; i < objects.length; i++){
+        var $li = $("<li>");
+        var $bar = $("<input>", {type: "checkbox", checked: "true"});
+        
+        $li.append($bar);
+        $li.append(objects[i].name);
+        
+        $list.append($li);
+    }
+    console.log($list);
+    $(".panel-body").append($list);
+}   
 
 function initialise(){
     getLocation();  
@@ -145,7 +161,7 @@ function esricode() {
                         
         //button click event listeners can't be added directly in HTML when the code is wrapped in an AMD callback
   
-       on(dom.byId("numberpubs"), "click", function() { clearRoutes();clearStops(); });   
+       on(dom.byId("numberpubs"), "click", function() { clearRoutes();clearStops();document.getElementById("panel-body").innerHTML = ""; });   
       on(dom.byId("findCrawlBtn"), "click", function(){ addStops();solveRoute();});
 
         //Begins listening for click events to add stops
@@ -156,7 +172,7 @@ function esricode() {
                 var obj = temp[i];
                 mapOnClick_addStops_connect = addOurStop(obj.longitude, obj.latitude);
             }
-            console.log(temp);
+              showBars(temp); 
         }
 
         //Clears all stops
