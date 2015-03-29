@@ -18,3 +18,84 @@
 03-28-15 18:09:26 | Using session token
 03-28-15 18:09:27 | Ok to proxy
 03-28-15 18:09:27 | Proxy complete
+ 
+03-29-15 03:44:39 | POST detected
+03-29-15 03:44:39 | Using session token
+03-29-15 03:44:43 | Ok to proxy
+03-29-15 03:44:43 | Proxy complete
+ 
+03-29-15 03:44:43 | POST detected
+03-29-15 03:44:43 | Using session token
+ 
+ 
+ 
+03-29-15 03:44:47 | Ok to proxy
+03-29-15 03:44:47 | Proxy complete
+03-29-15 03:44:47 | POST detected
+03-29-15 03:44:47 | Using session token
+ 
+ 
+03-29-15 03:44:51 | Ok to proxy
+03-29-15 03:44:51 | Proxy complete
+03-29-15 03:44:51 | POST detected
+03-29-15 03:44:51 | Using session token
+ 
+03-29-15 03:44:54 | Ok to proxy
+03-29-15 03:44:54 | Proxy complete
+03-29-15 03:44:54 | POST detected
+03-29-15 03:44:55 | Using session token
+03-29-15 03:44:58 | Ok to proxy
+03-29-15 03:44:58 | Proxy complete
+03-29-15 03:44:58 | POST detected
+03-29-15 03:44:58 | Using session token
+03-29-15 03:45:02 | Ok to proxy
+03-29-15 03:45:02 | Proxy complete
+03-29-15 03:45:02 | POST detected
+03-29-15 03:45:02 | Using session token
+03-29-15 03:45:05 | Ok to proxy
+03-29-15 03:45:05 | Proxy complete
+03-29-15 03:45:05 | POST detected
+03-29-15 03:45:06 | Using session token
+ 
+ 
+03-29-15 03:45:11 | Ok to proxy
+03-29-15 03:45:11 | Proxy complete
+03-29-15 03:45:11 | POST detected
+03-29-15 03:45:11 | Using session token
+03-29-15 03:45:17 | Ok to proxy
+03-29-15 03:45:17 | Proxy complete
+03-29-15 03:45:17 | POST detected
+03-29-15 03:45:17 | Using session token
+03-29-15 03:45:23 | Ok to proxy
+03-29-15 03:45:23 | Proxy complete
+ 
+03-29-15 03:46:36 | POST detected
+03-29-15 03:46:36 | Using session token
+03-29-15 03:46:42 | Ok to proxy
+03-29-15 03:46:42 | Proxy complete
+ 
+03-29-15 03:47:21 | POST detected
+03-29-15 03:47:21 | Using session token
+03-29-15 03:47:27 | Ok to proxy
+03-29-15 03:47:27 | Proxy complete
+ 
+03-29-15 03:48:10 | POST detected
+03-29-15 03:48:11 | Using session token
+03-29-15 03:48:14 | Ok to proxy
+03-29-15 03:48:14 | Proxy complete
+ 
+03-29-15 03:48:33 | POST detected
+03-29-15 03:48:33 | Using session token
+03-29-15 03:48:37 | Ok to proxy
+03-29-15 03:48:37 | Proxy complete
+ 
+03-29-15 03:58:56 | POST detected
+03-29-15 03:58:56 | Using session token
+03-29-15 03:58:56 | Authorization failed : {"error":{"code":498,"message":"Invalid Token","details":[]}}
+03-29-15 03:58:56 | Retry attempt 1 of 3
+03-29-15 03:58:56 | Resource using OAuth
+03-29-15 03:58:57 | Exchanging portal token for server-specific token for http://route.arcgis.com
+03-29-15 03:58:57 | Adding token to session
+03-29-15 03:58:57 | Using session token
+03-29-15 03:59:01 | Ok to proxy
+03-29-15 03:59:01 | Proxy complete

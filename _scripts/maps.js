@@ -99,7 +99,7 @@ function getBarObjs(){
         map = new Map("map", {
           basemap: "streets",
           center: [-1.9,52.48],
-          zoom: 13
+          zoom: 13,
         });
         routeTask = new RouteTask("http://route.arcgis.com/arcgis/rest/services/World/Route/NAServer/Route_World");
         routeParams = new RouteParameters();
@@ -125,11 +125,11 @@ function getBarObjs(){
                         
         //button click event listeners can't be added directly in HTML when the code is wrapped in an AMD callback
         on(dom.byId("addStopsBtn"), "click", addStops);
-        on(dom.byId("clearStopsBtn"), "click", clearStops);
-        on(dom.byId("addBarriersBtn"), "click", addBarriers);
-        on(dom.byId("clearBarriersBtn"), "click", clearBarriers);
+        //on(dom.byId("clearStopsBtn"), "click", clearStops);
+       // on(dom.byId("addBarriersBtn"), "click", addBarriers);
+       // on(dom.byId("clearBarriersBtn"), "click", clearBarriers);
         on(dom.byId("solveRoutesBtn"), "click", solveRoute);
-        on(dom.byId("clearRoutesBtn"), "click", clearRoutes);        
+       // on(dom.byId("clearRoutesBtn"), "click", clearRoutes);        
 
         //Begins listening for click events to add stops
         function addStops() {
@@ -159,8 +159,6 @@ function getBarObjs(){
           
 
         function addOurStop(x, y){
-            //removeEventHandlers();
-            console.log(x,y);
         routeParams.stops.features.push(
             map.graphics.add(
               new esri.Graphic(
@@ -177,7 +175,6 @@ function getBarObjs(){
           
         //Adds a stop. The stop is associated with the route currently displayed in the dropdown
         function addStop(evt) {
-        console.log(evt.mapPoint);
           routeParams.stops.features.push(
             map.graphics.add(
               new esri.Graphic(
