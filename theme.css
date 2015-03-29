@@ -184,7 +184,7 @@ body {
     box-shadow: inset 0px 2px 20px #000, 0px 1px 1px #fff;
 }
 .container .jumbotron, .container {
-    padding:0px;   
+    padding:5px;   
 }
 h5 {
     color: #DD9B05;
@@ -197,4 +197,36 @@ h5 {
 .panel-body{
  color: black;   
 text-shadow:none;
+}
+
+.well {
+    background: #333333;
+    box-shadow: inset 0px 2px 20px #000, 0px 1px 1px #CCCCCC;
+    border: 0px;
+}
+
+.panel {
+    background: #333333;
+    box-shadow: inset 0px 2px 20px #000, 0px 1px 1px #CCCCCC;
+    border: 0px;
+}
+
+.panel .panel-heading {
+    background: linear-gradient(#E4AF37, #DD9B05);
+    box-shadow: inset 0px 1px 1px #fff, 0px 1px 1px #000;
+    border: 0px;
+    text-align: right;
+}
+
+.panel-title {
+    color: #6E4E02;
+    float: left;
+    text-shadow: 0px 1px 1px #fff;
+    font-size: 25px;
+}
+
+.scrollable-menu {
+    height: auto;
+    max-height: 200px;
+    overflow-x: hidden;
 }
