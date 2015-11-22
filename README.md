@@ -7,4 +7,6 @@ Written mainly in JavaScript, and a little bit of PHP, we made use of the [esri 
 The app gets the current location from browser, then queries google maps to find the x nearest bars/pubs
 We translate the location into longitude/latitude, then pass these to the esri api, which finds the optimal (walking) path between them.
 
+The user can edit the bars underneath the map, to select which ones they definitely do or don't want to visit. These choices persist when the crawl is regenerated.
+
 ![screenshot](screenshot.png)
